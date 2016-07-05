@@ -1,0 +1,32 @@
+body{
+    background-color: #000000;
+}
+header{
+    float: left;
+    width: 98%;
+    background-color: #000000;
+    color: white;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+h1{
+    width: 35%;
+    float: left;
+}
+nav{
+    float: right;
+    padding-top: 40px;
+}
+nav a{
+    padding-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+.boards{
+    text-align: center;
+}
+.description{
+  color: white;
+  text-align: center;
+}

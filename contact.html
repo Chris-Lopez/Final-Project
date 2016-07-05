@@ -1,25 +1,64 @@
 <!doctype html>
-<style>
-body{
-	background: black;
-}
-.contact{
-    text-align: center;
-    color: white;
-}
-</style>
-<html>
-<body>
+<html class="no-js" lang="">
+ <body> 
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <title>Lubeck Studios</title>
+    <body>
+    <header><h1>Lubeck Studios</h1>
+        <nav>
+            <a href="Final Project.html">Home</a>
+            <a href="studio.html">Studio</a>
+            <a href="contact.html">Contact</a>
+            <a href="TheTeam.html">The Team</a>
+        </nav>
+    </header>
+
   <section class="contact">
   		<h3>Location</h3>
-  		<img src="Images/Studio12.png"/>
-  		<br>
-  		101 E Rand Rd,<br>
-  		Mt Prospect, IL 60056
-  		<br>
-  		Phone: (847) 749-2057
-
-
+  	<div class="map">
+  		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://disclaimergenerator.net">disclaimer generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(42.0794242,-87.93507970000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(42.0794242,-87.93507970000002)});infowindow = new google.maps.InfoWindow({content:'<strong>Lubeck Studios</strong><br>101 E Rand Rd, Mt Prospect, IL, 60056<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  	
   </section>
+
+   <section class="message">
+  <h2>Contact Us</h2>
+      <div class="site">
+        <form>
+       
+             <input type="text" name="username" placeholder="Name"></input>
+         
+             <input type="text" name="email" placeholder="Email address"></input>
+
+             <input type="text" name="subject" placeholder="Subject"></input>
+
+            <div class="text">
+             <input type="text" name="message" placeholder="Message"></input>
+            </div>
+             
+      <button type="button">Submit</button>
+    </section>
+
+	<section class="address">
+      <img src="images/studio7.jpg">
+  		<h4> Visit Us </h4>
+  		101 E Rand Rd,<br>
+  		Mt Prospect, IL 60056<br>
+  		Phone: (847) 749-2057
+  </section>
+
+
+  </div>
+  </div>
+  </form>
+  </form>
   </body>
   </html>
