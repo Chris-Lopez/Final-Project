@@ -6,7 +6,7 @@ header{
     width: 98%;
     background-color: #000000;
     color: white;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 20px;
 
 }
@@ -22,4 +22,32 @@ nav a{
     padding-right: 40px;
     text-decoration: none;
     color: white;
+}
+#image10{
+    float: left;
+    width: 33%;
+}
+#image9{
+    float: left;
+    width: 33%;
+}
+#image11{
+    float: left;
+}
+#image2{
+    float: left;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    width: 100%;
+}
+#image3{
+    float: left;
+}
+#image14{
+    float: left;
+    width: 50%;
+}
+#image15{
+    float: left;
+    width: 50%;
 }
