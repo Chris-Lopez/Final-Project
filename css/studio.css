@@ -30,12 +30,22 @@ footer{
     float: left;
     width: 33%;
 }
+#image10 img{
+    width: 100%;
+}
 #image9{
     float: left;
     width: 33%;
 }
+#image9 img{
+    width: 100%;
+}
 #image11{
     float: left;
+    width: 33%;
+}
+#image11 img{
+    width: 100%;
 }
 #image2{
     float: left;
@@ -43,16 +53,8 @@ footer{
     margin-top: 7px;
     width: 100%;
 }
-#image3{
-    float: left;
-}
-#image14{
-    float: left;
-    width: 50%;
-}
-#image15{
-    float: left;
-    width: 50%;
+#image2 img{
+    width: 100%;
 }
 #image7{
     float: left;

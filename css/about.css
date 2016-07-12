@@ -42,7 +42,9 @@ footer{
     width: 40%;
     padding-bottom: 40px;
 }
-
+#image15 img{
+    width:100%;
+}
 #image7{
     float: left;
     padding-left: .8em;

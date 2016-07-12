@@ -33,6 +33,9 @@ footer{
     align-content: center;
     padding-bottom: 50px;
 }
+.boards img{
+    width: 100%;
+}
 .description{
   color: white;
   text-align: center;
@@ -44,7 +47,7 @@ footer{
 }
 #address{
     padding-left: 2em;
-    padding-top: 1.8em;
+    padding-top: 1.6em;
     width: 45%;
     margin-right: 0;
     float: left;
