@@ -60,7 +60,7 @@ footer{
     width: 100%;
     align-content: left;
     font-family: "serif";
-    bottom: 0px;
+    bottom: -100px;
     left: 0;
     right: 0;
     position: absolute;
