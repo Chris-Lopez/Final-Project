@@ -165,12 +165,21 @@ nav a:focus {
 
 /*override for tablet*/
 @media (max-width: 1024px){
-    nav{
-    display: none;
+   .container{
+  width: 100%;
 }
-section{
-    width: 100%;
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
 }
-footer {
-    width: 100%;
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1570px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
 }
