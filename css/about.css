@@ -1,5 +1,7 @@
+
 body{
     background-color: #000000;
+    height: 100%;
 }
 header{
     float: left;
@@ -13,11 +15,16 @@ header{
 section{
     float: left;
     color: white;
-    width: 45%;
+    width: 50%;
     padding-top: 30px;
     font-size: 135%;
-    padding-left: 25px;
     font-family: "serif";
+    padding-top: 10%;
+    padding-left: 2%;
+}
+p{
+    width: 100%;
+    font-size: 120%;
 }
 h1{
     width: 35%;
@@ -28,22 +35,48 @@ nav{
     float: right;
     font-family: "serif";
 }
-
 footer{
     float: left;
     background-color: white;
     width: 100%;
     align-content: left;
     font-family: "serif";
+    bottom: -230px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    
 }
+#image16{
+    float: right;
+    align-content: right;
+    width: 70%;
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+#image16 img{
+    width: 60%;
+    float:right;
+    padding-right: 2%;
+}
+#services{
+    float: left;
+    color: white;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-family: "serif";
+    font-size: 150%;
+}
+
 #image15{
     padding-left: 20px;
     float: left;
-    width: 40%;
+    width: 50%;
     padding-bottom: 40px;
 }
 #image15 img{
-    width:100%;
+    width:70%;
 }
 #image7{
     float: left;
@@ -129,4 +162,16 @@ nav a:focus {
 .cl-effect-7 a:focus::after {
     top: 0%;
     opacity: 1;
+}
+
+/*override for tablet*/
+@media (max-width: 1024px){
+    nav{
+    display: none;
+}
+section{
+    width: 100%;
+}
+footer {
+    width: 100%;
 }

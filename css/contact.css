@@ -13,7 +13,7 @@ header{
 h1{
     float: left;
     color: white;
-    font-family: "serif"
+    font-family: "serif";
 
 }
 h2{
@@ -35,7 +35,7 @@ h4{
 }
 nav{
     float: right;
-    font-family: "serif"
+    font-family: "serif";
 }
 
 h3{
@@ -59,8 +59,12 @@ footer{
     background-color: white;
     width: 100%;
     align-content: left;
-    font-family: "serif"
-
+    font-family: "serif";
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    
 }
 .button{
     background-color: #00b81f;
@@ -84,6 +88,7 @@ footer{
 }
 .map{
    margin-left: 30px;
+   padding-top: 3%;
 }
 
 #image7{
