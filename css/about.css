@@ -19,12 +19,12 @@ section{
     padding-top: 30px;
     font-size: 135%;
     font-family: "serif";
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 2%;
 }
 p{
     width: 100%;
-    font-size: 120%;
+    font-size: 130%;
 }
 h1{
     width: 35%;
@@ -65,7 +65,8 @@ footer{
     padding-left: 10%;
     padding-top: 10%;
     font-family: "serif";
-    font-size: 150%;
+    font-size: 180%;
+
 }
 
 #image15{
@@ -167,10 +168,12 @@ nav a:focus {
 @media (max-width: 1024px){
    .container{
   width: 100%;
+  font-size: 100%;
 }
 @media screen and (min-width: 1400px) {
   .container {
     width: 1370px;
+    font-size:;
   }
 }
 @media screen and (min-width: 1600px) {
